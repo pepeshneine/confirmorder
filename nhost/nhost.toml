@@ -7,7 +7,7 @@ email.confirm = false
 migrations = "migrations"
 
 [graphql]
-database = "default"  # Это критично — добавь эту секцию!
+database = "default"  # Это ключевое поле, без него билд падает
 
 [functions]
 enabled = true
