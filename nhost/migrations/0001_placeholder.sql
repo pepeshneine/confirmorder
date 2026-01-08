@@ -1,0 +1,1 @@
+-- Placeholder migration to satisfy Nhost
