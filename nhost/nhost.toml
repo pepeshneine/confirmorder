@@ -5,3 +5,9 @@ email.confirm = false
 
 [database]
 migrations = "migrations"
+
+[graphql]
+database = "default"  # Это критично — добавь эту секцию!
+
+[functions]
+enabled = true
