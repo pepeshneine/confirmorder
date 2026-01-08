@@ -3,5 +3,11 @@ enabled = true
 email.enabled = true
 email.confirm = false
 
+[hasura]
+enabled = true
+
+[database]
+migrations = "migrations"
+
 [functions]
 enabled = true
