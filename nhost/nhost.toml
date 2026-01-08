@@ -1,0 +1,7 @@
+[auth]
+enabled = true
+email.enabled = true
+email.confirm = false
+
+[database]
+migrations = "migrations"
