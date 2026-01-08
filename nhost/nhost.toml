@@ -6,10 +6,5 @@ email.confirm = false
 [database]
 migrations = "migrations"
 
-[graphql]
-enabled = true
-database = "postgres"  # Обязательно "postgres" — это имя дефолтной БД в Nhost/Hasura
-schema = "public"      # Схема по умолчанию
-
 [functions]
 enabled = true
