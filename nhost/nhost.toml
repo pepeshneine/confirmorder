@@ -7,7 +7,7 @@ email.confirm = false
 migrations = "migrations"
 
 [graphql]
-database = "default"  # Это ключевое поле, без него билд падает
+database = "default"  # Это ключевое поле! Без него Nhost падает
 
 [functions]
 enabled = true
