@@ -8,7 +8,7 @@ migrations = "migrations"
 
 [graphql]
 enabled = true
-schema = "public"  # Это правильное значение для Nhost/Hasura в 2026 году
+database = "postgres"  # Это правильное значение — Nhost/Hasura использует "postgres" как дефолтную БД
 
 [functions]
 enabled = true
